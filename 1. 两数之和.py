@@ -63,7 +63,7 @@ class Solution1:
 # 空间复杂度：O(N)，其中 N 是数组中的元素数量。主要为哈希表的开销。
 
 
-class Solution:
+class Solution2:
     def twoSum(self, nums, target):
         hashtable = dict()
         for i, num in enumerate(nums):
